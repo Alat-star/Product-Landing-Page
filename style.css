@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb( 255, 243, 240);
+}
+
+.dropdown-link {
+    color: black;
+}
+
+body {
+
+   background-image: linear-gradient(120deg, rgba(204, 89, 210, 0.8),  rgba(244, 135, 182, 0.7) ), url(images/images.jpeg);
+   background-size: cover;
+   background-clip: padding-box;
+   color: #fff;
+   margin: 0 auto;
+   
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    margin-bottom: 4rem;
+    background-color: rgb(93, 24, 153);
+    color: black;
+    z-index: 4;
+
+}
+
+
+
+.logo {
+    width: 10vmin;
+    display: block;
+    height: auto;
+    max-width: 100%
+}
+
+
+
+
+.about { 
+    margin-top: 10rem;
+}
+
+.about-description {
+    padding: 1rem;
+}
+
+
+.boxshadow {
+    border-radius: 6px;
+    border: 1px solid rgb(253, 225, 45);
+    box-shadow: 0 16px 16px rgb(253, 225, 45);
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
+
+.vid-shadow {
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 240);
+    box-shadow: 0 16px 16px  rgb( 255, 243, 240);
+    margin: 5rem auto;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    max-width: 100%;color: #000;
+    display: block;
+    height: auto;
+
+   
+}
+
+.video {
+    width: 80vmin;
+    height: 50vmin;
+
+}
+
+.div-shadow {
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 240);
+    box-shadow: 0 16px 16px  rgb( 255, 243, 240);
+    margin-bottom: 5rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transform: skew(5deg);
+    color: #000;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    
+}
+
+.form-div {
+    border: 1px solid rgb(253, 225, 45);
+    box-shadow: 0 16px 16px rgb(253, 225, 45);
+    padding: 5rem;
+    padding-bottom:4rem;
+    border-radius: 5px;
+    width: 75vmin;
+    /* height: 40vmin; */
+    margin: auto;
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+
+.div-input {
+    display: block;
+    margin: 0 ;
+    width: 39vmin;
+    height: 1.2;
+    padding: 1rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: ease-in-out;
+    box-shadow: 0 5px 5px rgba(0,0,0,0);
+}
+
+.btn-submit {
+    margin-top: .5rem;
+    width: 30vmin;
+}
+
+footer {
+    background-color:  rgba(144, 70, 207, 0.75);
+    padding: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+
+}
